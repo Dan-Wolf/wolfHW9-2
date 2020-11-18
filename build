@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Compiling myLed.cpp"
+echo "Creating myLed.cgi"
+g++ myLed.cpp -o myLed.cgi -lcgicc
+echo "Finished"
